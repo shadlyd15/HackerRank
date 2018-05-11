@@ -26,6 +26,7 @@ int main() {
     int v1; 
     int x2; 
     int v2; 
+    
     scanf("%i %i %i %i", &x1, &v1, &x2, &v2);
     int result_size;
     kangaroo(x1, v1, x2, v2);
