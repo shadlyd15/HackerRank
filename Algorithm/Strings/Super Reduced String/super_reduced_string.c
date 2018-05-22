@@ -10,7 +10,7 @@ int main() {
 
   char *stack=(char *)malloc(sizeof(char)*strlen(string));
   memset(stack, 0x00, sizeof(char)*strlen(string));
-  int top=-1;
+  int top = -1;
 
   for(int i=0;i<strlen(string);i++){
 
